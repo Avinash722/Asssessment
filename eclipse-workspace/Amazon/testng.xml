@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitedemo">
+<listeners>
+
+<listener class-name="com.Utility.Listeners"/>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+
+</listeners>
+<test name="Test">
+		<classes>
+			<class name="com.qa.Test.TitleTest" />
+			<class name="com.qa.Test.AddCartTest" />
+			<class name="com.qa.Test.JoinPrimeTest" />
+
+		</classes>
+	
+	</test> <!-- Test -->
+</suite> <!-- Suite demo -->
