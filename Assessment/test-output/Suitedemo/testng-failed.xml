@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitedemo]">
+  <listeners>
+    <listener class-name="com.Utility.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.Test.AddCartTest">
+        <methods>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="added"/>
+          <include name="setupSuit"/>
+        </methods>
+      </class> <!-- com.qa.Test.AddCartTest -->
+      <class name="com.qa.Test.JoinPrimeTest">
+        <methods>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="joined"/>
+          <include name="setupSuit"/>
+        </methods>
+      </class> <!-- com.qa.Test.JoinPrimeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suitedemo] -->
