@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestCases>
+
+	<flipkart>
+		<username>vivek.jain@gmail.com</username>
+		<password>Test@123</password>
+	</flipkart>
+
+</TestCases>

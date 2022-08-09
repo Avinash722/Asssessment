@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Assessment">
+<listeners>
+
+<listener class-name="TestBase.Listeners"/>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+
+</listeners>
+	<test name="Test">
+		<classes>
+			<class name="TestCases.SignupTest" />
+			<class name="TestCases.LoginTest" />
+			<class name="TestCases.ShippingCartTest" />
+
+		</classes>
+	
+	</test> <!-- Test -->
+</suite> <!-- "Assessment" -->
+
