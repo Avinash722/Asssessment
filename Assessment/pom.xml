@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>MavenProject</groupId>
-  <artifactId>Amazon</artifactId>
+  <groupId>com.Assign</groupId>
+  <artifactId>Assessment</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Amazon</name>
+  <name>Assessment</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-  
+    
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -42,6 +42,6 @@
     <version>1.1.4</version>
     <scope>test</scope>
 </dependency>
-    
+
   </dependencies>
 </project>
